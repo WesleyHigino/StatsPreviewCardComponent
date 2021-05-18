@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+    margin:0;
+    padding: 0;
+   
+}
+body{
+    background-color:  hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+main{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.card-text{
+    background-color: hsl(244, 38%, 16%);  
+    border-radius: 10px 0 0 10px;
+   
+    
+}
+h2{
+    color:hsl(0, 0%, 100%);
+    margin-top: 60px;
+    margin-left: 60px;
+    font-family: 'Inter', sans-serif;
+   font-size: 30px;
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;  
+    
+}
+.info-text{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 330px;
+    
+}
+.card{
+    width: 500px;
+  
+}
+.imag{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+    
+  
+}
+
+.imag::before{
+    filter: contrast(200%)
+}
+.card-img::before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: hsla(277, 54%, 41%, 0.685);
+    opacity: 1;
+    border-radius: 0 10px 10px 0;
+
+}
+.info-data{
+    display: flex;
+    margin-top: 110px;
+    margin-left: 60px;
+    
+    
+
+}
+.data{
+    color:hsl(0, 0%, 100%) ;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    
+}
+.info{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    font-family: 'Lexend Deca', sans-serif; 
+    margin-top: 5px;
+   
+}
+.templates{
+    margin-left: 40px;
+}
+.queries{
+    margin-left: 40px;
+}
+@media (max-width:1007px){
+    h2{
+        color:hsl(0, 0%, 100%);
+        margin-top: 50px;
+        margin-left: 50px;
+        font-family: 'Inter', sans-serif;
+        font-size: 30px;
+    }
+    .info-text{
+        margin-top: 20px;
+        margin-left: 50px;
+        width: 330px;
+        
+    }
+    .card{
+        width: 400px;
+      
+    }
+    .info-data{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    
+
+}
+    
+}
+@media (max-width:805px){
+    h2{
+        color:hsl(0, 0%, 100%);
+        margin-top: 20px;
+        margin-left: 25px;
+        font-family: 'Inter', sans-serif;
+        font-size: 27px;
+    }
+    .info-text{
+        margin-top: 10px;
+        margin-left: 25px;
+        width: 310px;
+        
+    }
+    .card{
+        width: 340px;
+      
+    }
+    .info-data{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 25px;
+    
+
+}
+    
+}
+@media (max-width:685px){
+    main{
+      display: flex;
+      flex-direction: column-reverse;
+      position:absolute;
+      
+      
+      
+     
+    }
+    h2{
+        color:hsl(0, 0%, 100%);
+        margin-top: 60px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 28px;
+        width: 300px;
+    }
+    .card-text{
+        background-color: hsl(244, 38%, 16%);  
+        border-radius: 0 0 10px 10px;
+        height: 500px;
+       
+    }
+    
+  
+    .info-text{
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        
+    }
+    .imag{
+        border-radius: 10px 10px 0 0;
+    }
+    .card-img{
+        height: 25vh;
+    }
+ 
+    .card-img::before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 25vh;
+        background-color: hsla(277, 54%, 41%, 0.685);
+        opacity: 1;
+        border-radius: 10px 10px 0 0;
+    
+    }
+    .info-data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 0;
+        
+    
+    }
+    .compantes{
+        margin-left: 0;
+        
+    }
+    .templates{
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .queries{
+    
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    
+}
