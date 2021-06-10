@@ -1,4 +1,5 @@
-# StatsPreviewCardComponent
+# Stats Preview Card Component
+ https://statspreviewcard1.netlify.app/
 
 ## Sobre o projeto
 
